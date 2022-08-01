@@ -1,0 +1,20 @@
+
+
+.main-container {
+    margin-top: 5rem;
+    padding: 2rem;
+    width: 20rem;
+    height: 10rem;
+    margin: auto;
+    display: grid;
+    row-gap: 2rem;
+    border-radius: 5%;
+    background-color: rgb(118, 103, 250);
+}
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 3rem;
+    row-gap: 1rem;
+}
