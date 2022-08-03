@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(212, 164, 164);
+}
+
+ul li {
+    list-style: none;
+}
+
+.expense-card {
+    margin: auto;
+    margin-top: 5rem;
+    height: 24rem;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.head {
+    background-color: rgb(218, 127, 127);
+    width: 20rem;
+    height: 4rem;
+    border-radius: 10px;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sub-head {
+    font-size: 0.6rem;
+}
+
+.calculation {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.switch {
+    position: relative;
+    height: 2rem;
+    width: 3rem;
+    display: flex;
+}
+
+.circle1, .circle2 {
+    position: absolute;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    box-shadow: 0 0 2px 2px rgb(95, 95, 95);
+}
+
+.circle1 {
+    background-color: rgba(255, 255, 255, 0);
+    z-index: 3;
+}
+
+.circle2 {
+    left: 1.5rem;
+    background-color: rgb(173, 173, 173);
+}
+
+.body {
+    background-color: #fff;
+    width: 20rem;
+    height: 18rem;
+    border-radius: 10px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.main-head, .chart, .expense {
+    width: 18rem;
+}
+
+.chart::after {
+    margin-top: 0.8rem;
+    content: "";
+    width: 18rem;
+    height: 0.05rem;
+    background-color: rgba(93, 93, 93, 0.5);
+    position: absolute;
+}
+
+.single-bar ul {
+    font-size: 0.6rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.single-bar ul li {
+    width: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.single-bar ul li .bar{
+    margin-bottom: 0.2rem;
+    width: 1rem;
+    height: 3rem;
+    background-color: rgb(218, 127, 127);
+}
+
+.expense {
+    display: flex;
+    justify-content: space-between;
+}
