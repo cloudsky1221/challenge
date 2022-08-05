@@ -19,7 +19,6 @@ const data = [
 ]
 
 function dataShow() {
-
     switch (sorting.value){
         case "nameIncrease":
             data.sort((a,b) => a.name > b.name)
@@ -30,7 +29,6 @@ function dataShow() {
         case "valueIncrease":
             data.sort((a,b) => a.value - b.value)
             break
-
         case "valueDecrease":
             data.sort((a,b) => b.value - a.value)
             break

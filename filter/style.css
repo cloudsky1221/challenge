@@ -8,14 +8,37 @@ body {
 }
 
 .main-container {
-    width: 20rem;
+    width: 30rem;
     margin: auto;
     margin-top: 5rem;
 }
 
+.top {
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+select {
+    width: 10rem;
+    height: 1.5rem;
+    font-size: 0.8rem;
+}
+
+button {
+    width: 4rem;
+    height: 1.5rem;
+    font-size: 0.8rem;
+    border: none;
+    border-radius: 10px;
+}
+
 .container ul {
+    width: 25rem;
+    margin: auto;
     display: grid;
-    gap: 0.5rem;
+    row-gap: 0.5rem;
     grid-template-columns: 1fr 1fr;
 }
 
