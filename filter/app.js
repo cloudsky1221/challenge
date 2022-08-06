@@ -21,10 +21,10 @@ const data = [
 function dataShow() {
     switch (sorting.value){
         case "nameIncrease":
-            data.sort((a,b) => a.name > b.name)
+            data.sort((a,b) => a.name > b.name ? 1 : -1)
             break
         case "nameDecrease":
-            data.sort((a,b) => a.name < b.name)
+            data.sort((a,b) => a.name < b.name ? 1 : -1)
             break
         case "valueIncrease":
             data.sort((a,b) => a.value - b.value)
