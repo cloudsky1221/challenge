@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="app.js" defer></script>
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="container">
+                <div class="edits"><ul>
+                    <li><select id="size">
+                        <option value="sm10">10px</option>
+                        <option value="sm20">20px</option>
+                        <option value="sm30">30px</option>
+                    </select></li>
+                    <li><select id="weight">
+                        <option value="regular">Normal</option>
+                        <option value="bold">Bold</option>
+                        <option value="bolder">Bolder</option>
+                    </select></li>
+                    <li><select id="color">
+                        <option value="red">Red</option>
+                        <option value="blue">Blue</option>
+                        <option value="green">Green</option>
+                    </select></li>
+                    <li><select id="bgcolor">
+                        <option value="bgwhite">bgWhite</option>
+                        <option value="bgblue">bgBlue</option>
+                        <option value="bggreen">bgGreen</option>
+                        <option value="bgred">bgRed</option>
+                    </select></li>
+                    <li><select id="align">
+                        <option value="lf">Left</option>
+                        <option value="cnt">Center</option>
+                        <option value="rt">Right</option>
+                    </select></li>
+                    <li><button id="button">Make Change</button></li>
+                </ul></div>
+                <div class="textArea">
+                    <input type="text" id="myText" class="sm10 regular red bgwhite lf" placeholder="Enter your text here">
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
